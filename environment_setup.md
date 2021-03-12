@@ -23,6 +23,9 @@ conda env list
 
 conda list 
 
+#create or move the requirements.txt file in the server
+
+##if creating use touch requirement.txt
 # Install the dependencies using the requirements.txt file.
 conda install --yes --file requirements.txt
 
